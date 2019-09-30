@@ -1,0 +1,60 @@
+{
+  "POMExample.TestClass.Lab3Gmail(\"lab1antaltest@gmail.com\",\"987QWERTY\",\"antal_lviv@rambler.ru\")" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10f9d616f5202a04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1542787721753,
+        "stop" : 1542787778165,
+        "duration" : 56412
+      }
+    } ]
+  },
+  "POMExample.TestClass.Lab3Gmail(\"labltest@gmail.com\",\"987QWERTY\",\"anyvas21@gmail.com\")" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56b3a3bad90f06d8",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@id='passwordNext']",
+      "time" : {
+        "start" : 1542787827654,
+        "stop" : 1542787846135,
+        "duration" : 18481
+      }
+    } ]
+  },
+  "POMExample.TestClass.Lab3Gmail(\"lab1antaltest@gmail.com\",\"987QWERTY\",\"anyvas21@gmail.com\")" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3ed54b940190f71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1542787778320,
+        "stop" : 1542787827612,
+        "duration" : 49292
+      }
+    } ]
+  }
+}

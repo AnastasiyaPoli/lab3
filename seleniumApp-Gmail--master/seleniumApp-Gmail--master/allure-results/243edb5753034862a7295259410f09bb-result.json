@@ -1,0 +1,99 @@
+{
+  "uuid": "1ddfa41c-e101-45b0-956f-04afbb376bdb-tr-0-1003",
+  "historyId": "POMExample.TestClass.Lab3Gmail(\"labltest@gmail.com\",\"987QWERTY\",\"anyvas21@gmail.com\")",
+  "fullName": "POMExample.TestClass.Lab3Gmail(\"labltest@gmail.com\",\"987QWERTY\",\"anyvas21@gmail.com\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-13RNJDL"
+    },
+    {
+      "name": "testClass",
+      "value": "POMExample.TestClass"
+    },
+    {
+      "name": "testMethod",
+      "value": "Lab3Gmail"
+    },
+    {
+      "name": "package",
+      "value": "POMExample.TestClass"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "Debug"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Core"
+    }
+  ],
+  "links": [
+    {
+      "name": "I'm a test",
+      "url": "https://example.org/I'm%20a%20test",
+      "type": "tms"
+    },
+    {
+      "name": "GitHub#1",
+      "url": "https://example.org/https://github.com/unickq/allure-nunit",
+      "type": "issue"
+    }
+  ],
+  "name": "Lab3Gmail(\"labltest@gmail.com\",\"987QWERTY\",\"anyvas21@gmail.com\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@id='passwordNext']",
+    "trace": "   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   в POMExample.PageObjects.PasswordPage.GoToMidPage(String password) в C:\\Users\\Vas\\Desktop\\seleniumApp-Gmail--master\\POMExample\\PageObjects\\PasswordPage.cs:строка 30\r\n   в POMExample.TestClass.Lab3Gmail(String[] patametrs) в C:\\Users\\Vas\\Desktop\\seleniumApp-Gmail--master\\POMExample\\TestClass.cs:строка 44\r\n--NoSuchElementException\r\n   в OpenQA.Selenium.Support.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   в OpenQA.Selenium.Support.PageObjects.WebElementProxy.get_Element()\r\n   в OpenQA.Selenium.Support.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   в OpenQA.Selenium.IWebElement.get_Displayed()\r\n   в OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass20_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Lab3Gmail(\"labltest@gmail.com\",\"987QWERTY\",\"anyvas21@gmail.com\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@id='passwordNext']",
+        "trace": "   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   в POMExample.PageObjects.PasswordPage.GoToMidPage(String password) в C:\\Users\\Vas\\Desktop\\seleniumApp-Gmail--master\\POMExample\\PageObjects\\PasswordPage.cs:строка 30\r\n   в POMExample.TestClass.Lab3Gmail(String[] patametrs) в C:\\Users\\Vas\\Desktop\\seleniumApp-Gmail--master\\POMExample\\TestClass.cs:строка 44\r\n--NoSuchElementException\r\n   в OpenQA.Selenium.Support.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   в OpenQA.Selenium.Support.PageObjects.WebElementProxy.get_Element()\r\n   в OpenQA.Selenium.Support.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   в OpenQA.Selenium.IWebElement.get_Displayed()\r\n   в OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass20_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f2dcfbc77060474192fc28e30f384302-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1542787609357,
+      "stop": 1542787627692
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "System.String[]"
+    }
+  ],
+  "start": 1542787609357,
+  "stop": 1542787627692
+}

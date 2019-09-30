@@ -1,0 +1,44 @@
+{
+  "uuid": "2e7c64e3-dfed-4a4f-bc9f-9ba62221d0cc-tc-0-1000",
+  "name": "POMExample.TestClass.Lab3Gmail(\"lab1antaltest@gmail.com\",\"987QWERTY\",\"antal_lviv@rambler.ru\")",
+  "children": [
+    "d2aaef35-12c0-450d-a73e-7aae3a9b0a89-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1542787778143,
+      "stop": 1542787778143
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1542787778145,
+      "stop": 1542787778145
+    }
+  ],
+  "links": [],
+  "start": 1542787721748,
+  "stop": 1542787778300
+}

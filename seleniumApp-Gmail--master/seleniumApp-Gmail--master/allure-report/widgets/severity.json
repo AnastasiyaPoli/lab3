@@ -1,0 +1,31 @@
+[ {
+  "uid" : "10f9d616f5202a04",
+  "name" : "Lab3Gmail(\"lab1antaltest@gmail.com\",\"987QWERTY\",\"antal_lviv@rambler.ru\")",
+  "time" : {
+    "start" : 1542787721753,
+    "stop" : 1542787778165,
+    "duration" : 56412
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b3ed54b940190f71",
+  "name" : "Lab3Gmail(\"lab1antaltest@gmail.com\",\"987QWERTY\",\"anyvas21@gmail.com\")",
+  "time" : {
+    "start" : 1542787778320,
+    "stop" : 1542787827612,
+    "duration" : 49292
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "56b3a3bad90f06d8",
+  "name" : "Lab3Gmail(\"labltest@gmail.com\",\"987QWERTY\",\"anyvas21@gmail.com\")",
+  "time" : {
+    "start" : 1542787827654,
+    "stop" : 1542787846135,
+    "duration" : 18481
+  },
+  "status" : "failed",
+  "severity" : "critical"
+} ]

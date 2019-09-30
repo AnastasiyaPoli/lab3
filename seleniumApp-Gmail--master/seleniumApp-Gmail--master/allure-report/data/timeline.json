@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-13RNJDL",
+    "children" : [ {
+      "name" : "NonParallelWorker",
+      "children" : [ {
+        "name" : "Lab3Gmail(\"lab1antaltest@gmail.com\",\"987QWERTY\",\"anyvas21@gmail.com\")",
+        "uid" : "b3ed54b940190f71",
+        "parentUid" : "adb047ae1ac8e6e8a739cd6c7554d947",
+        "status" : "passed",
+        "time" : {
+          "start" : 1542787778320,
+          "stop" : 1542787827612,
+          "duration" : 49292
+        },
+        "flaky" : true,
+        "parameters" : [ "System.String[]" ]
+      }, {
+        "name" : "Lab3Gmail(\"labltest@gmail.com\",\"987QWERTY\",\"anyvas21@gmail.com\")",
+        "uid" : "56b3a3bad90f06d8",
+        "parentUid" : "adb047ae1ac8e6e8a739cd6c7554d947",
+        "status" : "failed",
+        "time" : {
+          "start" : 1542787827654,
+          "stop" : 1542787846135,
+          "duration" : 18481
+        },
+        "flaky" : true,
+        "parameters" : [ "System.String[]" ]
+      }, {
+        "name" : "Lab3Gmail(\"lab1antaltest@gmail.com\",\"987QWERTY\",\"antal_lviv@rambler.ru\")",
+        "uid" : "10f9d616f5202a04",
+        "parentUid" : "adb047ae1ac8e6e8a739cd6c7554d947",
+        "status" : "passed",
+        "time" : {
+          "start" : 1542787721753,
+          "stop" : 1542787778165,
+          "duration" : 56412
+        },
+        "flaky" : true,
+        "parameters" : [ "System.String[]" ]
+      } ],
+      "uid" : "adb047ae1ac8e6e8a739cd6c7554d947"
+    } ],
+    "uid" : "6e550adc90754b5804c3102ee6b54daf"
+  } ]
+}

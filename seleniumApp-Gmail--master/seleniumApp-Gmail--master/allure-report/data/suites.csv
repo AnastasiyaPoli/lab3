@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","POMExample.TestClass.Lab3Gmail(""lab1antaltest@gmail.com"",""987QWERTY"",""anyvas21@gmail.com"")","49292",""
+"failed","POMExample.TestClass.Lab3Gmail(""labltest@gmail.com"",""987QWERTY"",""anyvas21@gmail.com"")","18481",""
+"passed","POMExample.TestClass.Lab3Gmail(""lab1antaltest@gmail.com"",""987QWERTY"",""antal_lviv@rambler.ru"")","56412",""

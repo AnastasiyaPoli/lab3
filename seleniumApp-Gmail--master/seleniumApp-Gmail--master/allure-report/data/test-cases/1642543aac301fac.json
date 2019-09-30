@@ -1,0 +1,134 @@
+{
+  "uid" : "1642543aac301fac",
+  "name" : "Lab3Gmail(\"lab1antaltest@gmail.com\",\"987QWERTY\",\"anyvas21@gmail.com\")",
+  "fullName" : "POMExample.TestClass.Lab3Gmail(\"lab1antaltest@gmail.com\",\"987QWERTY\",\"anyvas21@gmail.com\")",
+  "historyId" : "POMExample.TestClass.Lab3Gmail(\"lab1antaltest@gmail.com\",\"987QWERTY\",\"anyvas21@gmail.com\")",
+  "time" : {
+    "start" : 1542787565191,
+    "stop" : 1542787609308,
+    "duration" : 44117
+  },
+  "status" : "failed",
+  "statusMessage" : "System.IO.FileNotFoundException : Файл 'C:\\Users\\Vas\\Desktop\\seleniumApp-Gmail--master\\expected.png' не найден.",
+  "statusTrace" : "   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)\r\n   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)\r\n   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)\r\n   в System.IO.File.ReadAllBytes(String path)\r\n   в Allure.Commons.AllureLifecycle.AddAttachment(String name, String type, String path)\r\n   в Allure.Commons.AllureLifecycle.AddAttachment(String path, String name)\r\n   в Allure.Commons.AllureLifecycle.AddScreenDiff(String testCaseUuid, String expectedPng, String actualPng, String diffPng)\r\n   в POMExample.TestClass.Lab3Gmail(String[] patametrs) в C:\\Users\\Vas\\Desktop\\seleniumApp-Gmail--master\\POMExample\\TestClass.cs:строка 58",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1542787609307,
+      "stop" : 1542787609307,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "System.IO.FileNotFoundException : Файл 'C:\\Users\\Vas\\Desktop\\seleniumApp-Gmail--master\\expected.png' не найден.",
+    "statusTrace" : "   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)\r\n   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)\r\n   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)\r\n   в System.IO.File.ReadAllBytes(String path)\r\n   в Allure.Commons.AllureLifecycle.AddAttachment(String name, String type, String path)\r\n   в Allure.Commons.AllureLifecycle.AddAttachment(String path, String name)\r\n   в Allure.Commons.AllureLifecycle.AddScreenDiff(String testCaseUuid, String expectedPng, String actualPng, String diffPng)\r\n   в POMExample.TestClass.Lab3Gmail(String[] patametrs) в C:\\Users\\Vas\\Desktop\\seleniumApp-Gmail--master\\POMExample\\TestClass.cs:строка 58",
+    "steps" : [ {
+      "name" : "Lab3Gmail(\"lab1antaltest@gmail.com\",\"987QWERTY\",\"anyvas21@gmail.com\")",
+      "time" : {
+        "start" : 1542787565191,
+        "stop" : 1542787609308,
+        "duration" : 44117
+      },
+      "status" : "failed",
+      "statusMessage" : "System.IO.FileNotFoundException : Файл 'C:\\Users\\Vas\\Desktop\\seleniumApp-Gmail--master\\expected.png' не найден.",
+      "statusTrace" : "   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)\r\n   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)\r\n   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)\r\n   в System.IO.File.ReadAllBytes(String path)\r\n   в Allure.Commons.AllureLifecycle.AddAttachment(String name, String type, String path)\r\n   в Allure.Commons.AllureLifecycle.AddAttachment(String path, String name)\r\n   в Allure.Commons.AllureLifecycle.AddScreenDiff(String testCaseUuid, String expectedPng, String actualPng, String diffPng)\r\n   в POMExample.TestClass.Lab3Gmail(String[] patametrs) в C:\\Users\\Vas\\Desktop\\seleniumApp-Gmail--master\\POMExample\\TestClass.cs:строка 58",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "54cfcc12d3b78862",
+        "name" : "Console Output",
+        "source" : "54cfcc12d3b78862.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1542787609307,
+      "stop" : 1542787609307,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-13RNJDL"
+  }, {
+    "name" : "testClass",
+    "value" : "POMExample.TestClass"
+  }, {
+    "name" : "testMethod",
+    "value" : "Lab3Gmail"
+  }, {
+    "name" : "package",
+    "value" : "POMExample.TestClass"
+  }, {
+    "name" : "tag",
+    "value" : "NUnit"
+  }, {
+    "name" : "tag",
+    "value" : "Debug"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "Core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Param #0",
+    "value" : "System.String[]"
+  } ],
+  "links" : [ {
+    "name" : "I'm a test",
+    "url" : "https://example.org/I'm%20a%20test",
+    "type" : "tms"
+  }, {
+    "name" : "GitHub#1",
+    "url" : "https://example.org/https://github.com/unickq/allure-nunit",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "NUnit", "Debug" ]
+  },
+  "source" : "1642543aac301fac.json",
+  "parameterValues" : [ "System.String[]" ]
+}
